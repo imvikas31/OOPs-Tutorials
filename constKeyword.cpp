@@ -1,6 +1,48 @@
 #include<iostream>
 using namespace std;
 
+// class abc{
+
+//     public:
+//     int x;
+//     int *y;
+
+//     abc(){
+//         x = 0;
+//         y = new int(0);
+//     }
+
+//     int getX() const
+//     {
+//         x = 10;  //gives error
+//         return x;
+//     }
+
+//     void setX(int val){
+//         x = val;
+//     }
+
+//     int getY() const
+//     {
+//         int f = 50;
+//         y = &f; //gives error
+//         return *y;
+//     }
+
+//     void setY(int val){
+//         *y = val;
+//     }
+
+// };
+
+// int main(){
+
+//     abc a1;
+//     cout<<a1.getX()<<endl;
+//     cout<<a1.getY()<<endl;
+//     return 0;
+
+// }
 
 
 int main(){
@@ -62,7 +104,6 @@ int main(){
         cout<<" After Value of p is : " <<*p<<endl;
 
 
-    
 
     return 0;
 
