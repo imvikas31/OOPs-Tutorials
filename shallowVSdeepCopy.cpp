@@ -8,12 +8,12 @@ class Student{
 
     Student(int x,int y):x(x),y(new int (y)){}
 
-    void print(int x, int y)const{
-        cout<<"X : "<<x<<end;
-        cout<<"PTR y : "<<y<<end;
-        cout<<"Content of y(*y) : "<<*y<<end;
+    void print()const{
+        
     }
 };
+
+
 int main(){
 
     Student s1;
